@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+# New comment
 
 def import_pods
     use_frameworks!
@@ -21,7 +21,8 @@ def import_pods
     pod 'ReachabilitySwift'
     pod 'Deviice'
     pod 'PromiseKit', '~> 6.0'
-    
+    pod 'NEWPOD','~> 2.3'
+   
 end
 
 target 'AGEX Herd' do
